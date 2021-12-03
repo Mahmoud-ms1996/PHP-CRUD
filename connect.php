@@ -1,6 +1,6 @@
 <?php
 
-    $con = new mysqli('localhost', 'root', '', 'info-table');
+    $con = new mysqli('localhost', 'root', '', 'CRUD');
 
    if(!$con){
         die(mysqli_error($con));
